@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
-  background-color: #2497b1;
+  background-color: #050e2f;
   overflow-x: hidden;
 }
 
@@ -927,4 +927,9 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
-/*# sourceMappingURL=style.css.map */
+p ,h2 ,h5 {
+  color: rgb(255, 255, 255);
+}
+.img-box{
+  color: white;
+}
