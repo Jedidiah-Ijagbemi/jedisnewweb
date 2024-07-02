@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page| User</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="author" content="Jedidiah">
+    <meta name="description" content="Web Developer">
+    <meta name="keywords" content="Jedis Tech">
+    <link rel="stylesheet" href="./styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="shortcut icon" href="../images/favicon.png" type="">
+    <link rel="icon" href="./images/favicon.png" type="">
 </head>
 <body>
     <div class="wrapper">
@@ -32,12 +35,12 @@
                 const form = document.querySelector('form');
                 form.addEventListener('submit', function(event) {
                     event.preventDefault(); // prevent default form submission behavior
-        
+
                     // validate username and password
                     const username = document.getElementById('username').value;
                     const password = document.getElementById('password').value;
-                    if (username === 'admin' && password === '472580') {window.location.href="/index2.html"
-                        alert('Welcome Master Jedidiah!'); href="/index2.html"
+                    if (username === 'admin' && password === '472580')  { window.location.href="index2.html"
+                        alert('Welcome Master Jedidiah!');
                     } else {
                         alert('Username or password incorrect. Please try again.');
                     }
